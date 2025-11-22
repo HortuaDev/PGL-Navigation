@@ -6,11 +6,11 @@ Se reutilizó el portfolio previo integrando nuevas pantallas y componentes pers
 
 - Pantalla de hobbies creada y configurada
 
-<img with=500 height=400 src="./exerciceTwo/Hobbies.png" alt="Pantalla de hobbies" />
+<img with=500 height=400 src="./images/exerciceTwo/Hobbies.png" alt="Pantalla de hobbies" />
 
 - Pantalla de QR del repositorio creada y configurada
 
-<img with=500 height=400 src="./exerciceTwo/Qr.png" alt="Pantalla de QR del repositorio" />
+<img with=500 height=400 src="./images/exerciceTwo/Qr.png" alt="Pantalla de QR del repositorio" />
 
 ---
 
@@ -18,7 +18,7 @@ Se reutilizó el portfolio previo integrando nuevas pantallas y componentes pers
 
 - Implementado un componente de cabecera (header) reutilizable para mantener la coherencia visual en todas las vistas principales.
 
-<img with=400 height=200 src="./exerciceTwo/Header.png" alt="Pantalla de cabecera" />
+<img with=400 height=200 src="./images/exerciceTwo/Header.png" alt="Pantalla de cabecera" />
 
 ---
 
@@ -36,4 +36,4 @@ Se reutilizó el portfolio previo integrando nuevas pantallas y componentes pers
 
 ```
 
-<img with=400 height=200 src="./exerciceTwo/Tabs.png" alt="Pantalla de cabecera" />
+<img with=400 height=200 src="./images/exerciceTwo/Tabs.png" alt="Pantalla de cabecera" />
