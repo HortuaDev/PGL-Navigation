@@ -48,6 +48,15 @@ export default function TabsLayout() {
                 ),
               }}
             />
+            <Tabs.Screen
+              name="ListProducts"
+              options={{
+                title: "ListProducts",
+                tabBarIcon: ({ color }) => (
+                  <FontAwesome name="product-hunt" size={28} color={color} />
+                ),
+              }}
+            />
           </Tabs>
         </View>
       </TabsContext.Provider>
