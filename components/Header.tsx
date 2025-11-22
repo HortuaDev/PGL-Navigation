@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Image, Pressable, Text, View } from "react-native";
 import { useRouter } from "expo-router";
-import styles from "../styles/HeaderStyles";
+import styles from "../utils/styles/HeaderStyles";
 
 interface HeaderProps {
   setDisplayMyQR: React.Dispatch<React.SetStateAction<boolean>>;
