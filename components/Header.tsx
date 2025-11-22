@@ -10,9 +10,9 @@ interface HeaderProps {
 }
 
 const Header = ({ setDisplayMyQR, setIsDarkMode, isDarkMode }: HeaderProps) => {
-  const ICON_MOON = require("../../assets/icon_moon.png");
-  const ICON_SUN = require("../../assets/icon_sun_white.png");
-  const AVATAR = require("../../assets/yoda.jpg");
+  const ICON_MOON = require("../assets/icon_moon.png");
+  const ICON_SUN = require("../assets/icon_sun_white.png");
+  const AVATAR = require("../assets/yoda.jpg");
 
   const router = useRouter();
 
