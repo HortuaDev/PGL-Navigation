@@ -3,15 +3,13 @@ import { Colors } from "./Colors";
 
 const styles = StyleSheet.create({
   topContainerWhite: {
-    flexShrink: 0,
-    paddingTop: 50,
+    paddingTop: 5,
     paddingHorizontal: 10,
     width: "100%",
     backgroundColor: Colors.primary_color_white,
   },
   topContainerDark: {
-    flexShrink: 0,
-    paddingTop: 50,
+    paddingTop: 5,
     paddingHorizontal: 10,
     width: "100%",
     backgroundColor: Colors.primary_color_dark,
