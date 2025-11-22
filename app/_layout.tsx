@@ -1,11 +1,23 @@
-import { StyleSheet, Text, View } from "react-native";
 import React from "react";
-import { Stack } from "expo-router";
+import { Drawer } from "expo-router/drawer";
 
 const MainLayout = () => {
-  return <Stack screenOptions={{ headerShown: false }} />;
+  return (
+    <Drawer>
+      <Drawer.Screen
+        name="index"
+        options={{
+          title: "Inicio",
+        }}
+      />
+      <Drawer.Screen
+        name="portfolio"
+        options={{
+          title: "Portfolio",
+        }}
+      />
+    </Drawer>
+  );
 };
 
 export default MainLayout;
-
-const styles = StyleSheet.create({});
